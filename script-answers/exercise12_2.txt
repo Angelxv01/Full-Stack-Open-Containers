@@ -1,0 +1,14 @@
+docker container run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+<3>init: (1220) ERROR: UtilConnectToInteropServer:307: connect failed 2
+latest: Pulling from library/ubuntu
+ea362f368469: Pull complete 
+Digest: sha256:b5a61709a9a44284d88fb12e5c48db0409cfad5b69d4ff8224077c57302df9cf
+Status: Downloaded newer image for ubuntu:latest
+root@82d636e40f09:/# cd usr
+root@82d636e40f09:/usr# cd src
+root@82d636e40f09:/usr/src# mkdir app
+root@82d636e40f09:/usr/src# cd app
+root@82d636e40f09:/usr/src/app# touch index.js
+root@82d636e40f09:/usr/src/app# exit
+exit
