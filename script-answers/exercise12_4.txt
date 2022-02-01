@@ -1,0 +1,5 @@
+root@82d636e40f09:/usr/src/app# apt-get update
+root@82d636e40f09:/usr/src/app# apt-get -y install curl
+root@82d636e40f09:/usr/src/app# curl -sL https://deb.nodesource.com/setup_16.x | bash
+root@82d636e40f09:/usr/src/app# apt install -y nodejs
+root@82d636e40f09:/usr/src/app# node index.js
