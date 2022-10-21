@@ -62,3 +62,4 @@ typings/
 
 # custom ignore
 mongo_data/
+redis_data/
