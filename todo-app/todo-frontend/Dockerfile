@@ -3,6 +3,7 @@ WORKDIR /usr/src/app
 COPY . .
 RUN npm install
 ENV REACT_APP_BACKEND_URL=http://localhost:3000/
+RUN CI=true npm test
 RUN npm run build
 
 FROM nginx:1.20-alpine
